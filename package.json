@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node index.js",
+    "build": "echo 'build script executed.'",
+    "test": "mocha test/test.js"
   },
   "author": "",
   "license": "ISC",
